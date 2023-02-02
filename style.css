@@ -1,0 +1,95 @@
+body{
+    background:#1B244A;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 40px;
+}
+
+/*the whole board*/
+#container{
+    width: 600px;
+    height: 520px;
+    background:#1B244A;
+    display:flex;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+
+#homeside{
+    margin-left:30px;
+}
+#awayside{
+    margin-right:30px;
+}
+
+#scoreholder{
+    display:flex;
+    background: black;
+    width: 155px;
+    height: 140px;
+}
+
+.score{
+    text-align:center;
+    font-size: 90px;
+    line-height: 10px;
+    font-size: 70px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color:#F94F6D;
+    width: 150px;
+}
+
+
+#addedPoints{
+    color:#9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+span{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px;   
+}
+
+.newgame{
+    margin: 350px auto 0 auto;
+    font-family: 'Verdana';
+    font-style: normal;
+    color:#9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px; 
+    height: 20px;
+    width: 160px;
+    text-align: center;
+}
+
+#middle-section{
+    text-align:center;
+}
+
+.history{
+    background: black;
+    margin-top:20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 60px;
+    font-family: 'Verdana';
+    font-style: normal;
+    color:#9AABD8;
+}
+
+/* hover effects*/
+

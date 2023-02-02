@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" 
+    rel="stylesheet">
+                
+</head>
+<body>
+    <div id="container">
+        <div id="homeside">
+            <h3>HOME</h3>
+            <div id="scoreholder">
+                <h3 id="HomePoint" class="score">0</h2>
+            </div>
+            <div id="addedPoints">
+                <span onclick="OnePoint()">+1</span>
+                <span onclick="TwoPoint()">+2</span>
+                <span onclick="ThreePoint()">+3</span>
+            </div>
+        </div>
+        <div>
+            <div id="middle-section">
+                <p onclick="newGame()" class="newgame">New Game</p>
+                <p id="history" class="history">previous matches: </p>
+            </div>
+        </div>
+        <div id="awayside">
+            <h3>AWAY</h3>
+            <div id="scoreholder">
+                <h3 id="AwayPoint" class="score">0</h3>
+            </div>
+            <div id="addedPoints">
+                <span onclick="aOnePoint()">+1</span>
+                <span onclick="aTwoPoint()">+2</span>
+                <span onclick="aThreePoint()">+3</span>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
